@@ -1,0 +1,39 @@
+LICENCIA DE USO RESTRINGIDO
+
+Copyright (c) 2025 Rocel Gerl. Todos los derechos reservados.
+
+PROHIBIDO EL USO, COPIA, MODIFICACIÓN, DISTRIBUCIÓN O REPRODUCCIÓN
+sin el permiso explícito por escrito del titular del copyright.
+
+El software y el contenido de este repositorio se proporcionan exclusivamente
+para fines de demostración y visualización. Cualquier uso beyond la mera visualización
+requiere autorización previa por escrito del autor.
+
+CONDICIONES:
+1. Se permite la visualización del código fuente para fines educativos y de revisión.
+2. Se prohíbe la descarga, copia, modificación o distribución sin autorización.
+3. Se prohíbe el uso comercial o cualquier implementación en producción.
+4. Cualquier referencia a este trabajo debe incluir mención completa al autor:
+   "Rocel Gerl - Bufete Legal" con enlace a https://rocelgerl.github.io/bufete_abogados/
+
+PARA SOLICITAR PERMISO DE USO:
+Contactar a: rocelgerl@gmail.com
+Incluir en la solicitud:
+- Nombre completo y la información de contacto
+- Propósito del uso solicitado
+- Alcance y duración del uso previsto
+- Forma en que se atribuirá el trabajo al autor
+
+EL AUTOR SE RESERVA EL DERECHO DE:
+- Denegar permisos de uso sin necesidad de justificación
+- Establecer condiciones específicas para cada autorización
+- Revocar permisos previamente concedidos si no se cumplen las condiciones
+
+ESTE SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍAS DE NINGÚN TIPO,
+EXPRESAS O IMPLÍCITAS, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIALIZACIÓN,
+IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO EL AUTOR
+SERÁ RESPONSABLE POR NINGÚN DAÑO U OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO,
+AGRAVIO O CUALQUIER OTRO MOTIVO, QUE SURJA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO
+U OTRO TIPO DE ACCIONES EN EL SOFTWARE.
+
+Última actualización: Enero 2025
