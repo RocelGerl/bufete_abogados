@@ -5,20 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bufete Legal</title>
-
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
-    <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@300;400;600;700&display=swap"
         rel="stylesheet">
@@ -171,7 +161,6 @@
             font-size: 30px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
             z-index: 1000;
-            /* Aumentado para asegurar visibilidad */
             animation: pulse 2s infinite;
             display: flex;
             align-items: center;
@@ -198,7 +187,6 @@
             }
         }
 
-        /* CHATBOT MEJORADO */
         .chatbot {
             position: fixed;
             bottom: 110px;
@@ -208,7 +196,6 @@
             border-radius: 15px;
             box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
             z-index: 999;
-            /* Ajustado para estar debajo de WhatsApp pero sobre otros elementos */
             overflow: hidden;
             transform: translateY(150%);
             transition: all 0.5s ease;
@@ -346,7 +333,6 @@
             font-size: 24px;
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
             z-index: 1000;
-            /* Aumentado para asegurar visibilidad */
             cursor: pointer;
             display: flex;
             align-items: center;
@@ -420,7 +406,6 @@
             }
         }
 
-        /* Efecto de aparición/desaparición para secciones */
         .section-fade {
             opacity: 1;
             transition: opacity 0.5s ease;
@@ -430,7 +415,6 @@
             opacity: 0;
         }
 
-        /* Botones en hero section - CORRECCIÓN PRINCIPAL */
         .hero-buttons {
             display: flex;
             flex-wrap: wrap;
@@ -438,14 +422,12 @@
             justify-content: flex-start;
         }
 
-        /* Centrado de texto para móviles */
         @media (max-width: 768px) {
             .navbar {
                 background-color: var(--primary) !important;
                 padding: 10px 0;
             }
 
-            /* FIX: Asegurar que el navbar esté siempre visible en móviles */
             .navbar-collapse {
                 background-color: var(--primary);
                 padding: 15px;
@@ -466,7 +448,6 @@
                 text-align: center;
             }
 
-            /* CORRECCIÓN: Botones en móvil */
             .hero-buttons {
                 justify-content: center;
                 flex-direction: column;
@@ -502,13 +483,11 @@
                 padding: 20px;
             }
 
-            /* Ajustes para el equipo en móviles */
             .team-card {
                 margin: 10px auto;
                 max-width: 320px;
             }
 
-            /* Carrusel más rápido en móviles */
             .moving-carousel {
                 animation: moveSlideshowMobile 15s linear infinite;
             }
@@ -519,7 +498,6 @@
                 }
             }
 
-            /* Mejora de espaciado general en móviles */
             .container {
                 padding-left: 15px;
                 padding-right: 15px;
@@ -529,13 +507,11 @@
                 margin-bottom: 30px;
             }
 
-            /* Ajuste para tarjetas de misión/visión */
             .card-body.p-5 {
                 padding: 25px !important;
             }
         }
 
-        /* Ajustes para tablets */
         @media (max-width: 992px) and (min-width: 769px) {
             .hero-buttons {
                 justify-content: center;
@@ -551,7 +527,6 @@
             }
         }
 
-        /* Ajustes para pantallas muy pequeñas */
         @media (max-width: 380px) {
             .hero h1.display-3 {
                 font-size: 2.5rem;
@@ -575,7 +550,6 @@
 
 <body>
     <main>
-        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: var(--primary) !important;">
             <div class="container">
                 <a class="navbar-brand animate__animated animate__pulse" href="#">
@@ -604,7 +578,6 @@
             </div>
         </nav>
 
-        <!-- Hero Section -->
         <section id="inicio" class="hero section-fade">
             <div class="container">
                 <div class="row align-items-center">
@@ -613,7 +586,6 @@
                         <p class="lead mb-5">Tu bufete de confianza con profesionales especializados en diversas áreas
                             del derecho. Estamos aquí para proteger tus derechos y brindarte la mejor asesoría legal.
                         </p>
-                        <!-- CORRECCIÓN: Contenedor para botones -->
                         <div class="hero-buttons">
                             <a href="#contacto" class="btn btn-primary btn-lg">Contáctanos</a>
                             <a href="#abogados" class="btn btn-outline-light btn-lg">Nuestro Equipo</a>
@@ -630,7 +602,6 @@
             </div>
         </section>
 
-        <!-- Misión y Visión Section -->
         <section id="mision-vision" class="py-5 bg-light section-fade">
             <div class="container py-5">
                 <h2 class="text-center section-title" data-aos="fade-up">Misión & Visión</h2>
@@ -662,7 +633,6 @@
             </div>
         </section>
 
-        <!-- Abogados Section -->
         <section id="abogados" class="py-5 section-fade">
             <div class="container py-5">
                 <h2 class="text-center section-title" data-aos="fade-up">Nuestro Equipo de Abogados</h2>
@@ -672,7 +642,6 @@
                 <div class="team-carousel">
                     <div class="team-carousel-container" style="overflow: hidden;">
                         <div class="row flex-nowrap moving-carousel">
-                            <!-- Abogado 1 -->
                             <div class="col-md-4" data-aos="flip-left">
                                 <div class="team-card card">
                                     <img src="https://placehold.co/600x400" class="card-img-top" alt="Abogado 1">
@@ -689,7 +658,6 @@
                                 </div>
                             </div>
 
-                            <!-- Abogado 2 -->
                             <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
                                 <div class="team-card card">
                                     <img src="https://placehold.co/600x400" class="card-img-top" alt="Abogado 2">
@@ -705,8 +673,6 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- Abogado 3 -->
                             <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
                                 <div class="team-card card">
                                     <img src="https://placehold.co/600x400" class="card-img-top" alt="Abogado 3">
@@ -723,7 +689,6 @@
                                 </div>
                             </div>
 
-                            <!-- Abogado 4 -->
                             <div class="col-md-4" data-aos="flip-left" data-aos-delay="300">
                                 <div class="team-card card">
                                     <img src="https://placehold.co/600x400" class="card-img-top" alt="Abogado 4">
@@ -740,7 +705,6 @@
                                 </div>
                             </div>
 
-                            <!-- Abogado 5 -->
                             <div class="col-md-4" data-aos="flip-left" data-aos-delay="400">
                                 <div class="team-card card">
                                     <img src="https://placehold.co/600x400" class="card-img-top" alt="Abogado 5">
@@ -762,7 +726,6 @@
             </div>
         </section>
 
-        <!-- Contacto Section -->
         <section id="contacto" class="py-5 bg-light section-fade">
             <div class="container py-5">
                 <h2 class="text-center section-title" data-aos="fade-up">Contáctanos</h2>
@@ -802,7 +765,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -841,13 +803,11 @@
         </div>
     </footer>
 
-    <!-- WhatsApp Float -->
     <a href="https://wa.me/59175835585?text=Hola,%20me%20gustaría%20recibir%20más%20información"
         class="whatsapp-float animate__animated" id="whatsappButton">
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <!-- Chatbot -->
     <div class="chatbot" id="chatbot">
         <div class="chatbot-header">
             <h5 class="mb-0">Asistente Virtual</h5>
@@ -871,18 +831,14 @@
         <i class="fas fa-comments"></i>
     </div>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        // Script para bloquear combinaciones de teclas de desarrollo con SweetAlert
         document.addEventListener('contextmenu', function (e) {
             e.preventDefault();
             Swal.fire({
@@ -895,7 +851,6 @@
         });
 
         document.addEventListener('keydown', function (e) {
-            // Bloquear F12
             if (e.key === 'F12' || e.keyCode === 123) {
                 e.preventDefault();
                 Swal.fire({
@@ -908,7 +863,6 @@
                 return false;
             }
 
-            // Bloquear Ctrl+Shift+I (mayúsculas y minúsculas)
             if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i')) {
                 e.preventDefault();
                 Swal.fire({
@@ -921,7 +875,6 @@
                 return false;
             }
 
-            // Bloquear Ctrl+Shift+J (mayúsculas y minúsculas)
             if (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.key === 'j')) {
                 e.preventDefault();
                 Swal.fire({
@@ -934,7 +887,6 @@
                 return false;
             }
 
-            // Bloquear Ctrl+Shift+C (mayúsculas y minúsculas)
             if (e.ctrlKey && e.shiftKey && (e.key === 'C' || e.key === 'c')) {
                 e.preventDefault();
                 Swal.fire({
@@ -947,7 +899,6 @@
                 return false;
             }
 
-            // Bloquear Ctrl+U (mayúsculas y minúsculas)
             if (e.ctrlKey && (e.key === 'U' || e.key === 'u')) {
                 e.preventDefault();
                 Swal.fire({
@@ -960,7 +911,6 @@
                 return false;
             }
 
-            // Bloquear Ctrl+S (mayúsculas y minúsculas)
             if (e.ctrlKey && (e.key === 'S' || e.key === 's')) {
                 e.preventDefault();
                 Swal.fire({
@@ -973,7 +923,6 @@
                 return false;
             }
 
-            // Bloquar menú contextual (clic derecho)
             if (e.key === 'ContextMenu') {
                 e.preventDefault();
                 Swal.fire({
@@ -987,7 +936,6 @@
             }
         });
 
-        // Protección adicional contra la apertura de herramientas de desarrollo
         setInterval(function () {
             debugger;
         }, 1000);
